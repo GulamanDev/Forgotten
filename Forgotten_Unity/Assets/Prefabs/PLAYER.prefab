@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 1808093539890203051}
   - component: {fileID: 4066814355147857276}
   - component: {fileID: 5378528928329441214}
-  - component: {fileID: 8467268038621060056}
   - component: {fileID: 7106577235100096852}
   m_Layer: 0
   m_Name: Camera
@@ -210,27 +209,6 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
---- !u!65 &8467268038621060056
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322089636218963816}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 7.2118125, y: 6.0484753, z: 22.089697}
-  m_Center: {x: -0.046756506, y: 0.23756838, z: 13.684728}
 --- !u!114 &7106577235100096852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,8 +386,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 8.560414, y: 3.774743, z: 27.94396}
-  m_Center: {x: 0.68161345, y: 1.3873715, z: 14.886542}
+  m_Size: {x: 7.402114, y: 4.7125874, z: 27.757313}
+  m_Center: {x: 0.102463245, y: 0.62753713, z: 14.979866}
 --- !u!54 &2127654810027746809
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -588,7 +566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkingSpeed: 1
-  runningSpeed: 3
+  runningSpeed: 1
   jumpSpeed: 0
   gravity: 20
   playerCamera: {fileID: 3928395188338004707}
